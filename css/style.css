@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.banner {
+    background-color: azure;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1080px;
+}
+
+#banner-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headings {
+    font-size: 24px;
+}
+
+.heading-span {
+    color: #c4c4c4;
+    font-style: italic;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#search-bar {
+    border-radius: 7px;
+    width: 30vw;
+    padding: 5px;
+    outline: none;
+}
+
+.search-buttons {
+    margin: 20px 0;
+    display: flex;
+}
+
+/* .banner-btns {
+    outline: none;
+    
+} */
+
+button {
+    outline: none;
+}
+
+#country-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+
+}
+
+.inner-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    font-size: 10px;
+    margin: 0 5px 5px;
+    padding: 5px;
+    text-align: center;
+    background-color: cornsilk;
+}
+
+.country-flag {
+    width: 100px;
+}
+
+.text-div {
+    padding: 3px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.switchedon {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    width: 8vw;
+    margin: 0;
+}
+
+.switchedoff {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+    width: 8vw;
+    margin: 0;
+}
+
+.nostyle {
+    width: 8vw;
+    margin: 0;
+}
+
+svg {
+    margin: 0 8px;
+    fill: gray;
+    
+}
+
+.graph-btn {
+    display: flex;
+    background-color: turquoise;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.graph-btn > button {
+    margin: 10px;
+}
